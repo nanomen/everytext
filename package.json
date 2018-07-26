@@ -1,0 +1,17 @@
+{
+  "name": "everytext",
+  "description": "",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanomen/everytext.git"
+  },
+  "keywords": [],
+  "author": "nanomen <nanomen@mail.ru> (https://github.com/nanomen/)",
+  "license": "MIT",
+  "devDependencies": {
+    "ws": "^6.0.0"
+  }
+}
