@@ -4,6 +4,6 @@ COPY package.json package.json
 RUN npm i
 RUN npm i pm2 -g
 COPY . .
-CMD ["pm2-runtime", "server/index.js"]
+CMD ["pm2-runtime", "server/index.js --watch"]
 
 EXPOSE 8080
